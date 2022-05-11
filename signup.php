@@ -52,7 +52,7 @@
 
   </div>
 
-  <button type="submit" class="btn btn-primary">SIGN-UP</button>
+  <button type="submit" class="btn btn-primary" name="submit">SIGN-UP</button>
   <a href="index.php">LOGIN</a>
 </form>
 

@@ -4,6 +4,8 @@ if(isset($_POST['username'])&&
 isset($_POST['username'])&&
 isset($_POST['username'])){
 
+include "connection.php";
+
     $name = $_POST['name'];
     $username = $_POST['username'];
     $password = $_POST['password'];
