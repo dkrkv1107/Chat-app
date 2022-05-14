@@ -172,7 +172,7 @@ body{
   width: calc(100% - 50px);
   font-size: 16px;
   padding: 0 13px;
-  border: 1px solid black;
+  border: 2px solid black;
   outline: none;
   border-radius: 5px 0 0 5px;
   opacity: 0;

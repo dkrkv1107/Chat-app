@@ -28,7 +28,7 @@
          <span class="text">
              Select User To Start Chat
          </span>
-         <input type="text" placeholder="Enter Name To Search...."></input>
+         <input type="text" placeholder="Enter Name To Search....">
          <button><i class="fas fa-search"></i></button>
      </div>
      <div class="users-list">
@@ -47,7 +47,7 @@
     </section>
   </div>
 
-  <script src="javascript/pass-show-hide.js"></script>
+  <script src="javascript/users.js"></script>
   <script src="javascript/signup.js"></script>
 
 </body>
