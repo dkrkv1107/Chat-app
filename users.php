@@ -10,26 +10,27 @@
 </head>
 <body>
   <div class="wrapper">
-    <section class="form login">
-      <header>Realtime Chat App</header>
-      <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
-        <div class="error-text"></div>
-        
-        <div class="field input">
-          <label>Email Address</label>
-          <input type="text" name="email" placeholder="Enter your email" required>
-        </div>
-        <div class="field input">
-          <label>Password</label>
-          <input type="password" name="password" placeholder="Enter new password" required>
-          <i class="fas fa-eye"></i>
-        </div>
-       
-        <div class="field button">
-          <input type="submit" name="submit" value="Continue to Chat">
-        </div>
-      </form>
-      <div class="link">Not yet signed up? <a href="login.php">Sign-up now</a></div>
+    <section class="users">
+     <header>
+         <div class="content">
+             <img src="img.png" alt="">
+             <div class="details">
+                 <span>Chat Area</span>
+                 <p>Active Now</p>
+
+             </div>
+         </div>
+         <a href="#" class="logout">
+              Logout
+         </a>
+     </header>
+     <div class="search">
+         <span class="text">
+             Select User To Start Chat
+         </span>
+         <input type="text" placeholder="Enter Name To Search...."></input>
+         <button><i class="fas fa-search"></i></button>
+     </div>
     </section>
   </div>
 
