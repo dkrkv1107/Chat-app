@@ -10,9 +10,10 @@
 </head>
 <body>
   <div class="wrapper">
-    <section class="users">
+    <section class="chat-area">
      <header>
-         <div class="content">
+         <a href="#" class="back-icon"><i class="fas fa-arrow-left"></i></a>
+         <div class="content" style="display: flex;">
              <img src="img.png" alt="">
              <div class="details">
                  <span>User Name</span>
@@ -20,30 +21,26 @@
 
              </div>
          </div>
-         <a href="#" class="logout">
-              Logout
-         </a>
+       
      </header>
-     <div class="search">
-         <span class="text">
-             Select User To Start Chat
-         </span>
-         <input type="text" placeholder="Enter Name To Search...."></input>
-         <button><i class="fas fa-search"></i></button>
-     </div>
-     <div class="users-list">
-         <a href="#">
-         <div class="content">
-             <img src="img.png" alt="">
+     <div class="chat-box">
+         <div class="chat outgoing">
              <div class="details">
-                 <span>User Name</span>
-                 <p>Test Message</p>
-
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa provident voluptates</p>
              </div>
+            
          </div>
-         <div class="status-dot"><i class="fas fa-circle"></i></div>
-         </a>
+         <div class="chat incoming">
+             <img src="img.png" alt=" ">
+             <div class="details">
+             <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa provident voluptates</p>
+             </div>
+          </div>
      </div>
+     <form action="#" class="typing-area">
+         <input type="text" placeholder="Type message to send.....">
+         <button><i class="fab fa-telegram-plane"></i></button>
+     </form>
     </section>
   </div>
 
