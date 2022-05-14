@@ -4,31 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat App-LOGIN</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link rel="stylesheet" href="css/style.css">
+    <title>Chat-app</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="w-400 p-5 shadow rounded">
-    <form method="post" action="auth.php">
-      <img src="img/logo.png" class="w-25" style="margin-left: 110px;">
-      <h3>LOGIN</h3>
-  <div class="mb-3">
-    <label  class="form-label">User Name</label>
-    <input type="email" class="form-control" >
-
+  <div class="wrapper">
+    <section class="form signup">
+      <header>Realtime Chat App</header>
+      <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
+        <div class="error-text"></div>
+        <div class="name-details">
+          <div class="field input">
+            <label>First Name</label>
+            <input type="text" name="fname" placeholder="First name" required>
+          </div>
+          <div class="field input">
+            <label>Last Name</label>
+            <input type="text" name="lname" placeholder="Last name" required>
+          </div>
+        </div>
+        <div class="field input">
+          <label>Email Address</label>
+          <input type="text" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="field input">
+          <label>Password</label>
+          <input type="password" name="password" placeholder="Enter new password" required>
+          <i class="fas fa-eye"></i>
+        </div>
+        <div class="field image">
+          <label>Select Image</label>
+          <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg" required>
+        </div>
+        <div class="field button">
+          <input type="submit" name="submit" value="Continue to Chat">
+        </div>
+      </form>
+      <div class="link">Already signed up? <a href="login.php">Login now</a></div>
+    </section>
   </div>
-  <div class="mb-3">
-    <label  class="form-label">Password</label>
-    <input type="email" class="form-control" >
 
-  </div>
+  <script src="javascript/pass-show-hide.js"></script>
+  <script src="javascript/signup.js"></script>
 
-  <button type="submit" class="btn btn-primary" name="submit">LOGIN</button>
-  <a href="signup.php">SIGNUP</a>
-</form>
-
-    </div>
 </body>
 </html>
