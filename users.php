@@ -48,7 +48,7 @@
   </div>
 
   <script src="javascript/users.js"></script>
-  <script src="javascript/signup.js"></script>
+  
 
 </body>
 </html>
