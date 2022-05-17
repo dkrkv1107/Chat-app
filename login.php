@@ -23,7 +23,7 @@ include_once "header.php";
                     <input type="submit" name="submit" value="Continue to Chat">
                 </div>
             </form>
-            <div class="link">Not yet signed up? <a href="login.php">Sign-up now</a></div>
+            <div class="link">Not yet signed up? <a href="index.php">Sign-up now</a></div>
         </section>
     </div>
 
