@@ -7,7 +7,7 @@ include_once "header.php";
     <div class="wrapper">
         <section class="chat-area">
             <header>
-                <a href="#" class="back-icon"><i class="fas fa-arrow-left"></i></a>
+                <a href="users.php" class="back-icon"><i class="fas fa-arrow-left"></i></a>
                 <div class="content" style="display: flex;">
                     <img src="img.png" alt="">
                     <div class="details">
