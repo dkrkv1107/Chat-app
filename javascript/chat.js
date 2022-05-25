@@ -53,7 +53,7 @@ setInterval(() => {
             }
         }
     }
-    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); // sending form data into url
     xhr.send("incoming_id=" + incoming_id);
 }, 500);
 
